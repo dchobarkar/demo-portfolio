@@ -4,6 +4,7 @@
   "description": "A portfolio template based on Gatsby framework",
   "version": "1.0.0",
   "scripts": {
+    "deploy":"gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
@@ -23,6 +24,7 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "prettier": "2.2.1"
   },
   "repository": {

@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/Demo-Portfolio",
   plugins: [
     `gatsby-transformer-remark`,
     "gatsby-transformer-sharp",
