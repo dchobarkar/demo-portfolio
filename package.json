@@ -1,8 +1,10 @@
 {
-  "name": "demo-portfolio",
-  "private": true,
+  "name": "portfolio-template",
   "description": "A portfolio template based on Gatsby framework",
   "version": "1.0.0",
+  "author": "Darshan Chobarkar <contact@darshanwebdev.com> (https://darshanwebdev.com)",
+  "license": "MIT",
+  "private": true,
   "scripts": {
     "deploy":"gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
